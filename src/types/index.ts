@@ -32,7 +32,7 @@ export type TApiSingleProductResp = {
     title: string;
     description: string;
     price: string;
-    quantity: string;
+    quantity: number;
     image: string;
   };
 };
